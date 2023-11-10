@@ -1,0 +1,57 @@
+Day-7
+--------
+Java Inheritance
+Method Overriding
+super Keyword
+final Keyword
+---------------
+
+Inheritance : Aquiring all the properties(attributes) & behavior(methods) from one class to another class is
+called as inheritance.
+
+5 TYPES OF INHERITANCE
+--------------------
+1) Single
+2) Multilevel
+3) Hierarchical
+4) Multiple
+5) Hybrid
+
+Method Overriding
+------------------
+Rewrite the methods in child classes.
+	1) method definition should be same
+	2) body should be changed
+
+Overloading:
+		1) within single class & multiple classes(inhertiance)
+		2) definition should be changed
+
+Overriding:
+		1) only in inhertance(multiple classes)
+		2) definition should NOT be changed
+
+super keyword
+---------------
+1) super can be used to refer immediate parent class instance variable.
+2) super can be used to invoke immediate parent class method.
+
+final Keyword
+------------
+variables -you cannot change the value of the variable.
+methods -method cannot be override in the child classes.
+class - class cannot be extend into another
+
+
+Assignment-1
+-----------------------------------
+Create a class 'Teacher' which contains following variables and methods
+designation = "Teacher"; 
+collegeName = "BusyQA";
+does() Teaching
+
+Create another class 'ComputerTeacher' which extends ‘Teacher’ class then create objects then call methods.
+
+
+
+

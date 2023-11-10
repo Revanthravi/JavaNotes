@@ -1,0 +1,70 @@
+Day-7
+---------
+this keyword
+call by value & Call by reference
+static keyword
+System.out.println()
+-------------------
+
+
+call by value & Call by reference
+
+-> call by value : we have to pass a value to a method as a parameter
+-> call by reference : we have to pass object to a method as parameter
+
+int a;
+double d;
+CallByRef a
+
+
+ststatic keyword
+-----------------
+static variables
+static methods
+-----------------------
+1) static methods can access only static stuff(static variables & static methods)-Directly without object creation
+2) static methods can also access non-static stuff but through object creation.
+3) Non-static methods can access every thing directly.
+
+
+class Test
+{
+static String s="welcome";
+}
+
+Test.s.length()
+-----------------------
+
+class System
+{
+static PrintStream out;
+}
+
+System.out.print("welcomer.....")
+
+
+Assignment
+---------------------------
+
+1) Create a class Calculation with the following methods. 
+
+Class Name: Calculation
+
+int sum(int x, int y)  :  Should accept two integer parameters and returns sum of two numbers.
+int  sum(int x, int y, int z) : Should accept three integer parameters and returns sum of three numbers.
+double sum(double x, double y)  : Should accept  two double type parameters and returns sum of two numbers.
+double sum(double x, double y, double z) : Should accept  three double type parameters and returns sum of three numbers.
+
+Now, create object for Calculations class  ‘cal’ then call different methods by passing different inputs.
+
+
+
+
+
+
+
+
+
+
+
+
